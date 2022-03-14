@@ -173,18 +173,13 @@ const SCHEMAS: {
         name: "Location with radius",
         selector: { location: { radius: true, icon: "mdi:home" } },
       },
+      color_rgb: { name: "Color", selector: { "color-rgb": {} } },
     },
   },
   {
     name: "Multiples",
     input: {
       entity: { name: "Entity", selector: { entity: { multiple: true } } },
-    },
-  },
-  {
-    name: "RGB Color",
-    input: {
-      color_rgb: { name: "Color", selector: { "color-rgb": {} } },
     },
   },
 ];
