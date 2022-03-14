@@ -36,7 +36,7 @@ export interface AttributeSelector {
 
 export interface ColorRGBSelector {
   // eslint-disable-next-line @typescript-eslint/ban-types
-  "color-rgb": {};
+  color_rgb: {};
 }
 
 export interface DeviceSelector {

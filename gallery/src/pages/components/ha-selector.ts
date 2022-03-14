@@ -173,7 +173,7 @@ const SCHEMAS: {
         name: "Location with radius",
         selector: { location: { radius: true, icon: "mdi:home" } },
       },
-      color_rgb: { name: "Color", selector: { "color-rgb": {} } },
+      color_rgb: { name: "Color", selector: { color_rgb: {} } },
     },
   },
   {
